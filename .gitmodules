@@ -54,3 +54,7 @@
 	path = third_party/fillp-sheep
 	url = https://github.com/fillthepipe/fillp-sheep.git
 	ignore = dirty
+[submodule "third_party/autocc"]
+	path = third_party/autocc
+	url = git@github.com:mrbeann/autocc.git
+	ignore = dirty
