@@ -3,18 +3,10 @@ schemes:
     name: TCP Cubic
     color: black
     marker: '*'
-  vegas:
-    name: TCP Vegas
-    color: silver
-    marker: 'h'
   bbr:
     name: TCP BBR
     color: gold
     marker: '^'
-  ledbat:
-    name: LEDBAT
-    color: green
-    marker: '<'
   pcc:
     name: PCC-Allegro
     color: cyan
@@ -27,22 +19,10 @@ schemes:
     name: Sprout
     color: orange
     marker: 'p'
-  quic:
-    name: QUIC Cubic
-    color: magenta
-    marker: '8'
-  scream:
-    name: SCReAM
-    color: pink
-    marker: '1'
   copa:
     name: Copa
     color: red
     marker: 'o'
-  taova:
-    name: TaoVA-100x
-    color: gray
-    marker: 'd'
   vivace:
     name: PCC-Vivace
     color: blue
@@ -51,10 +31,6 @@ schemes:
     name: PCC-Expr
     color: olive
     marker: '<'
-  fillp:
-    name: FillP
-    color: violet
-    marker: '+'
   indigo:
     name: Indigo
     color: indigo
@@ -63,3 +39,7 @@ schemes:
     name: FillP-Sheep
     color: violet
     marker: 'D'
+  auto_pcc:
+    name: AUTO-PCC
+    color: red
+    marker: 'x'
