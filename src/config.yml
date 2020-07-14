@@ -3,10 +3,18 @@ schemes:
     name: TCP Cubic
     color: black
     marker: '*'
+  vegas:
+    name: TCP Vegas
+    color: silver
+    marker: 'h'
   bbr:
     name: TCP BBR
     color: gold
     marker: '^'
+  ledbat:
+    name: LEDBAT
+    color: green
+    marker: '<'
   pcc:
     name: PCC-Allegro
     color: cyan
@@ -35,11 +43,127 @@ schemes:
     name: Indigo
     color: indigo
     marker: 'D'
+  fillp:
+    name: FillP
+    color: violet
+    marker: '+'
   fillp_sheep:
     name: FillP-Sheep
     color: violet
     marker: 'D'
-  auto_pcc:
-    name: AUTO-PCC
+  taova:
+    name: TaoVA-100x
+    color: gray
+    marker: 'd'
+  aurora:
+    name: Aurora
+    color: brown
+    marker: '8'
+  auto_pcc001:
+    name: AUTO-PCC001
+    color: red
+    marker: 'x'
+  auto_pcc1:
+    name: AUTO-PCC1
+    color: red
+    marker: 'x'
+  auto_pcc2:
+    name: AUTO-PCC2
+    color: red
+    marker: 'x'
+  auto_pcc3:
+    name: AUTO-PCC3
+    color: red
+    marker: 'x'
+  auto_pcc4:
+    name: AUTO-PCC4
+    color: red
+    marker: 'x'
+  auto_pcc5:
+    name: AUTO-PCC5
+    color: red
+    marker: 'x'
+  auto_pcc6:
+    name: AUTO-PCC6
+    color: red
+    marker: 'x'
+  auto_pcc7:
+    name: AUTO-PCC7
+    color: red
+    marker: 'x'
+  auto_pcc8:
+    name: AUTO-PCC8
+    color: red
+    marker: 'x'
+  auto_pcc9:
+    name: AUTO-PCC9
+    color: red
+    marker: 'x'
+  auto_0_001:
+    name: AUTO(0.001,0.999)
+    color: red
+    marker: 'x'
+  auto_0_005:
+    name: AUTO(0.005,0.995)
+    color: red
+    marker: 'x'
+  auto_0_01:
+    name: AUTO(0.01,0.99)
+    color: red
+    marker: 'x'
+  auto_0_02:
+    name: AUTO(0.02,0.98)
+    color: red
+    marker: 'x'
+  auto_0_025:
+    name: AUTO(0.025,0.975)
+    color: red
+    marker: 'x'
+  auto_0_03:
+    name: AUTO(0.03,0.97)
+    color: red
+    marker: 'x'
+  auto_0_035:
+    name: AUTO(0.035,0.965)
+    color: red
+    marker: 'x'
+  auto_0_05:
+    name: AUTO(0.05,0.95)
+    color: red
+    marker: 'x'
+  auto_0_1:
+    name: AUTO(0.1,0.9)
+    color: red
+    marker: 'x'
+  auto_0_194:
+    name: AUTO(0.194,0.806)
+    color: red
+    marker: 'x'
+  auto_0_2:
+    name: AUTO(0.2,0.8)
+    color: red
+    marker: 'x'
+  auto_0_3:
+    name: AUTO(0.3,0.7)
+    color: red
+    marker: 'x'
+  auto_0_4:
+    name: AUTO(0.4,0.6)
+    color: red
+    marker: 'x'
+  auto_0_45:
+    name: AUTO(0.45,0.55)
+    color: red
+    marker: 'x'
+  auto_0_5:
+    name: AUTO(0.5,0.5)
+    color: red
+    marker: 'x'
+  auto_0_6:
+    name: AUTO(0.6,0.4)
+    color: red
+    marker: 'x'
+  auto_0_7:
+    name: AUTO(0.7,0.3)
     color: red
     marker: 'x'

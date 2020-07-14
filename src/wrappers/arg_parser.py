@@ -32,6 +32,10 @@ def parse_wrapper_args(run_first):
         receiver_parser.add_argument(
             'ip', metavar='IP', help='IP address of sender')
         receiver_parser.add_argument('port', help='port of sender')
+    
+    sender_parser.add_argument(
+        '--extra_args', metavar="--arg1=val1 --arg2=val2...",
+        default='', help='extra arguments for the sender')
 
     args = parser.parse_args()
 
