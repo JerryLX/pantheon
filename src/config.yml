@@ -3,24 +3,18 @@ schemes:
     name: TCP Cubic
     color: black
     marker: '*'
-<<<<<<< HEAD
   vegas:
     name: TCP Vegas
     color: silver
     marker: 'h'
-=======
->>>>>>> a182c6039987fe5da41cd194f69f267ef2108741
   bbr:
     name: TCP BBR
     color: gold
     marker: '^'
-<<<<<<< HEAD
   ledbat:
     name: LEDBAT
     color: green
     marker: '<'
-=======
->>>>>>> a182c6039987fe5da41cd194f69f267ef2108741
   pcc:
     name: PCC-Allegro
     color: cyan
