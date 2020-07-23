@@ -1,18 +1,21 @@
 {
     "cc_schemes": [
-        "auto_0_05",
+        "auto_0_1",
         "auto_0_2",
         "auto_0_3",
         "auto_0_5",
         "auto_0_6",
         "fillp",
         "copa",
-        "bbr",
-        "vivace",
-        "cubic",
-        "verus",
         "indigo",
-        "ledbat"
+        "bbr",
+        "cubic",
+        "ledbat",
+        "pcc",
+        "taova",
+        "vegas",
+        "vivace",
+        "aurora"
     ],
     "downlink_trace": "3.04mbps-poisson.trace",
     "extra_mm_link_args": "--uplink-queue=droptail --uplink-queue-args=packets=426",

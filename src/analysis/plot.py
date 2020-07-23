@@ -256,7 +256,7 @@ class Plot(object):
             max_raw_delay = max(max(x_data), max_raw_delay)
 
             # plot raw values
-            ax_raw.scatter(x_data, y_data, color=color, marker=marker,
+            ax_raw.scatter(x_data, y_data, color=color, marker=marker, s=25,
                            label=cc_name, clip_on=False)
 
             # plot the average of raw values
@@ -267,7 +267,7 @@ class Plot(object):
             min_mean_delay = min(x_mean, min_mean_delay)
             max_mean_delay = max(x_mean, max_mean_delay)
 
-            ax_mean.scatter(x_mean, y_mean, color=color, marker=marker,
+            ax_mean.scatter(x_mean, y_mean, color=color, marker=marker, s=36,
                             clip_on=False)
             ax_mean.annotate(cc_name, (x_mean, y_mean))
 

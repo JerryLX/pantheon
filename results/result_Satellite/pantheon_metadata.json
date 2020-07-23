@@ -1,6 +1,21 @@
 {
     "cc_schemes": [
-        "indigo"
+        "auto_0_005",
+        "auto_0_01",
+        "auto_0_2",
+        "auto_0_3",
+        "auto_0_7",
+        "fillp",
+        "copa",
+        "indigo",
+        "bbr",
+        "cubic",
+        "ledbat",
+        "pcc",
+        "taova",
+        "vegas",
+        "vivace",
+        "aurora"
     ],
     "downlink_trace": "42mbps.trace",
     "extra_mm_link_args": "--uplink-queue=droptail --uplink-queue-args=packets=1500",

@@ -135,6 +135,10 @@ schemes:
     name: AUTO(0.1,0.9)
     color: red
     marker: 'x'
+  auto_0_15:
+    name: AUTO(0.15,0.85)
+    color: red
+    marker: 'x'
   auto_0_194:
     name: AUTO(0.194,0.806)
     color: red
@@ -143,8 +147,16 @@ schemes:
     name: AUTO(0.2,0.8)
     color: red
     marker: 'x'
+  auto_0_25:
+    name: AUTO(0.25,0.75)
+    color: red
+    marker: 'x'
   auto_0_3:
     name: AUTO(0.3,0.7)
+    color: red
+    marker: 'x'
+  auto_0_35:
+    name: AUTO(0.35,0.65)
     color: red
     marker: 'x'
   auto_0_4:
@@ -166,4 +178,52 @@ schemes:
   auto_0_7:
     name: AUTO(0.7,0.3)
     color: red
+    marker: 'x'
+  auto_0_8:
+    name: AUTO(0.8,0.2)
+    color: red
+    marker: 'x'
+  auto_0_9:
+    name: AUTO(0.9,0.1)
+    color: red
+    marker: 'x'
+  auto_0_91:
+    name: AUTO(0.91,0.09)
+    color: red
+    marker: 'x'
+  auto_0_92:
+    name: AUTO(0.92,0.08)
+    color: red
+    marker: 'x'
+  auto_0_93:
+    name: AUTO(0.93,0.07)
+    color: red
+    marker: 'x'
+  auto_0_94:
+    name: AUTO(0.94,0.06)
+    color: red
+    marker: 'x'
+  auto_0_95:
+    name: AUTO(0.95,0.05)
+    color: red
+    marker: 'x'
+  auto_0_96:
+    name: AUTO(0.96,0.04)
+    color: red
+    marker: 'x'
+  auto_0_97:
+    name: AUTO(0.97,0.03)
+    color: red
+    marker: 'x'
+  auto_0_98:
+    name: AUTO(0.98,0.02)
+    color: red
+    marker: 'x'
+  auto_0_99:
+    name: AUTO(0.99,0.01)
+    color: red
+    marker: 'x'
+  test:
+    name: TEST
+    color: black
     marker: 'x'

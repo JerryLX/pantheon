@@ -1,6 +1,6 @@
 #!/bin/sh
 
-src/experiments/test.py local --schemes "auto_0_2 auto_0_1 auto_0_05 auto_0_02 auto_0_01" --uplink-trace src/experiments/traces/77.72mbps.trace \
+src/experiments/test.py local --schemes "indigo" --run-times 10 --uplink-trace src/experiments/traces/77.72mbps.trace \
 --downlink-trace src/experiments/traces/77.72mbps.trace \
 --prepend-mm-cmds "mm-delay 51 mm-loss uplink 0.0006" \
 --extra-mm-link-args "--uplink-queue=droptail --uplink-queue-args=packets=94" \
