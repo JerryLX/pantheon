@@ -22,7 +22,7 @@ def main():
         return
 
     if args.option == 'sender':
-        cmd = [send_src, args.port, '--preference=0.85']
+        cmd = [send_src, args.port, '--preference=0.92']
         print (cmd)
         check_call(cmd)
         return

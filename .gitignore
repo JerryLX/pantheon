@@ -2,8 +2,13 @@
 *.svg
 *.txt
 *.pdf
+*.png
+*.trace
+output
 /tmp/
 
+/results/
+/results2/
 ##### Python
 
 # Byte-compiled / optimized / DLL files

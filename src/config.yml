@@ -227,3 +227,7 @@ schemes:
     name: TEST
     color: black
     marker: 'x'
+  universe:
+    name: Universe
+    color: black
+    marker: 'x'

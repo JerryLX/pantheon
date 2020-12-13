@@ -8,23 +8,23 @@ import context
 
 
 def main():
-    args = arg_parser.receiver_first()
+    args = arg_parser.sender_first()
 
     cc_repo = path.join(context.third_party_dir, 'autocc')
-    send_src = path.join(cc_repo, 'pccclient')
-    recv_src = path.join(cc_repo, 'pccserver')
+    send_src = path.join(cc_repo, 'run_universe_sender.py')
+    recv_src = path.join(cc_repo, 'gym_pantheon', 'envs', 'run_receiver.py')
 
     if args.option == 'setup':
         check_call(['sudo pip install gym'], shell=True)
+        check_call(['sudo pip install torch'], shell=True)
         return
 
     if args.option == 'sender':
-        cmd = [send_src, args.port, "--preference=0.3"]
+        cmd = [send_src, args.port]
         check_call(cmd)
         return
 
     if args.option == 'receiver':
-	check_call([''])
         cmd = [recv_src, args.ip, args.port]
         print (cmd)
         check_call(cmd)

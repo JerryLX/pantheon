@@ -110,12 +110,14 @@ class PlotThroughputTime(object):
         schemes_config = utils.parse_config()['schemes']
         for cc in self.cc_schemes:
             cc_name = schemes_config[cc]['name']
-
+            print(cc_name)
             for run_id in xrange(1, self.run_times + 1):
                 tunnel_log_path = path.join(
                     self.data_dir, datalink_fmt_str % (cc, run_id))
                 clock_time, throughput = self.parse_tunnel_log(tunnel_log_path)
-
+                rtime = [clock_time[1][i]-clock_time[1][0] for i in range(len(clock_time[1]))]
+                print(rtime)
+                print(throughput[1])
                 min_time = None
                 max_time = None
                 max_tput = None
