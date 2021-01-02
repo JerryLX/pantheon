@@ -264,6 +264,10 @@ class TunnelGraph(object):
             ax.fill_between(self.link_capacity_t, 0, self.link_capacity,
                             facecolor='linen')
 
+        f = open("/home/lixu/tput_in.txt","a")
+        print >> f, self.link_capacity_t, self.link_capacity
+        f.close()
+
         colors = ['b', 'g', 'r', 'y', 'c', 'm']
         color_i = 0
         for flow_id in self.flows:
@@ -271,6 +275,10 @@ class TunnelGraph(object):
 
             if flow_id in self.ingress_tput and flow_id in self.ingress_t:
                 empty_graph = False
+                f = open("/home/lixu/tput_in.txt","a")
+                print >> f, self.ingress_tput[flow_id]
+                print >> f, self.ingress_t[flow_id]
+                f.close()
                 ax.plot(self.ingress_t[flow_id], self.ingress_tput[flow_id],
                         label='Flow %s ingress (mean %.2f Mbit/s)'
                         % (flow_id, self.avg_ingress.get(flow_id, 0)),
