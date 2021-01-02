@@ -11,7 +11,7 @@ def main():
     args = arg_parser.sender_first()
 
     cc_repo = path.join(context.third_party_dir, 'autocc')
-    send_src = path.join(cc_repo, 'run_sender.py')
+    send_src = path.join(cc_repo, 'run_spec_sender2.py')
     recv_src = path.join(cc_repo, 'gym_pantheon', 'envs', 'run_receiver.py')
 
     if args.option == 'setup':
@@ -20,7 +20,7 @@ def main():
         return
 
     if args.option == 'sender':
-        cmd = [send_src, args.port, "--preference=0.9"]
+        cmd = [send_src, args.port]
         check_call(cmd)
         return
 

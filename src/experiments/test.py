@@ -296,6 +296,7 @@ class Test(object):
         sys.stderr.write('[tunnel client manager (tcm)] ')
         self.tc_manager = Popen(tc_manager_cmd, stdin=PIPE, stdout=PIPE,
                                 preexec_fn=os.setsid)
+        
         tc_manager = self.tc_manager
 
         while True:

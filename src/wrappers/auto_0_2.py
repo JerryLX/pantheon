@@ -21,6 +21,7 @@ def main():
 
     if args.option == 'sender':
         cmd = [send_src, args.port, "--preference=0.2"]
+        print (cmd)
         check_call(cmd)
         return
 

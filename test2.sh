@@ -1,6 +1,6 @@
 #!/bin/sh
 
-src/experiments/test.py local --schemes "auto_0_2" --run-times 10 --uplink-trace src/experiments/traces/3.04mbps-poisson.trace \
+src/experiments/test.py local --schemes "auto_tf_0_2" --uplink-trace src/experiments/traces/3.04mbps-poisson.trace \
 --downlink-trace src/experiments/traces/3.04mbps-poisson.trace \
 --prepend-mm-cmds "mm-delay 130" \
 --extra-mm-link-args "--uplink-queue=droptail --uplink-queue-args=packets=426" \
