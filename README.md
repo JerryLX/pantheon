@@ -41,6 +41,18 @@ Many of the tools and programs run by the Pantheon are git submodules in the
 git submodule update --init --recursive  # or tools/fetch_submodules.sh
 ```
 
+Install gym
+
+```
+pip install gym
+```
+
+Install tensorflow
+
+```
+
+```
+
 ## Dependencies
 We provide a handy script `tools/install_deps.sh` to install globally required
 dependencies; these dependencies are required before testing **any** scheme
