@@ -231,3 +231,35 @@ schemes:
     name: Universe
     color: black
     marker: 'x'
+  auto_tf_0_1:
+    name: AUTO(0.2,0.8)
+    color: red
+    marker: 'x'
+  auto_tf_0_2:
+    name: AUTO(0.2,0.8)
+    color: red
+    marker: 'x'
+  auto_tf_0_3:
+    name: AUTO(0.2,0.8)
+    color: red
+    marker: 'x'
+  auto_tf_0_4:
+    name: AUTO(0.2,0.8)
+    color: red
+    marker: 'x'
+  auto_tf_0_5:
+    name: AUTO(0.2,0.8)
+    color: red
+    marker: 'x'
+  aurora_tf:
+    name: Aurora
+    color: red
+    marker: '*'
+  test1:
+    name: delay_oriented
+    color: red
+    marker: '*'
+  test2:
+    name: throughput_oriented
+    color: red
+    marker: '*'
