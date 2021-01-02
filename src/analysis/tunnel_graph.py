@@ -265,7 +265,8 @@ class TunnelGraph(object):
                             facecolor='linen')
 
         f = open("/home/lixu/tput_in.txt","a")
-        print >> f, self.link_capacity_t, self.link_capacity
+        print >> f, self.link_capacity_t
+        print >> f, self.link_capacity
         f.close()
 
         colors = ['b', 'g', 'r', 'y', 'c', 'm']
